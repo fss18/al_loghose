@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 
 var minimist = require('minimist')
-var loghose = require('./lib/loghose')
+var loghose = require('docker-loghose')
 var through = require('through2')
 var syslog = require ('syslog')
 
